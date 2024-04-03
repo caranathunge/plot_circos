@@ -14,6 +14,9 @@ def plot_circos(file_path,
                 file_name: 'str' = 'plot.pdf'):
     """
     Function to create circos plots from data containing cancer driver gene data.
+    First track shows cancer types, second track is a bar plot showing frequency 
+    data (i.e. tumor frequency), and the third track shows the driver gene status
+    of the fusion genes in heatmap colored based on absence/presence
 
     Args:
     - file_path (str): Path to the file containing data to be plotted.
