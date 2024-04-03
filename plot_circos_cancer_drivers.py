@@ -106,7 +106,7 @@ def plot_circos(file_path,
     
         # Add the fusion gene names from 'query' column as x-axis tick labels on the outside
         track2.xticks(
-            x,
+            x+0.4,
             labels=filtered_df1['query'].values,
             label_orientation='vertical',
             label_size=5,
