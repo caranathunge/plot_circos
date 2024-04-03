@@ -10,7 +10,7 @@ def plot_circos(file_path,
                 bar_pal_start: 'int' = 2,
                 hmap_pal_start: 'int' = -1,
                 plot_title: 'str' = '',
-                track_2_label: 'str' = '',
+                track_2_labels: 'str' = '',
                 file_name: 'str' = 'plot.pdf'):
     """
     Function to create circos plots from data containing cancer driver gene data.
@@ -215,7 +215,7 @@ def plot_circos(file_path,
         fontweight='medium',
     )
     circos.text(
-        track_2_label,
+        track_2_labels,
         size=8,
         r=108,
         deg=180,
